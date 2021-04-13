@@ -1,0 +1,55 @@
+#branding {
+  padding: 3em;
+  text-align: center;
+}
+
+#navbar {
+  position: sticky;
+  top: 0px;
+  z-index:100;
+}
+
+#navbar img {
+  max-width: 30px;
+  margin: 5px;
+}
+
+.badge-chain {
+  text-transform: uppercase;
+}
+
+.badge-chain + .badge-network {
+  margin-left: 0.5em;
+}
+
+.badge-network:hover,
+.badge-network:focus {
+  cursor: help;
+}
+
+.card {
+  margin: 3em 0;
+}
+.card h3.card-title {
+  margin-bottom: .3em;
+}
+#upload {
+  margin-top: 5em;
+}
+
+.card.no-border {
+  border:none
+}
+
+#actions {
+  margin: 3em 0 2em 0;
+}
+
+table, td {
+  word-wrap: break-word;
+  word-break:break-all;
+}
+
+footer {
+  margin: 5em 0 2em 0;
+}

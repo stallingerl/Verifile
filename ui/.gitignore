@@ -1,0 +1,33 @@
+public/index.html
+
+bower_components
+node_modules
+*.sw[a-z]
+database
+public/vendor
+public/dist
+log/
+server.pid
+.env*
+config/local*
+.DS_Store
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

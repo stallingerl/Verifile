@@ -1,0 +1,58 @@
+app:
+  port: 3003
+  site:
+    brand: Proof of Existence
+    logo: "/theme/logo.svg"
+    title: Proof of Existence
+    slogan: Written forever.
+    tagline: Instant & Secure Proof of Existence for Any Document.
+    email: love@proofofexistence.com
+    keywords:
+      - blockchain
+      - notary
+      - proof of existence
+      - bitcoin
+      - p2p
+      - anonymous
+      - secure
+      - permanent
+      - distributed
+      - documents
+      - agreements
+      - contracts
+  url:
+    scheme: http
+    host: localhost
+    port: 3003
+  magicNumber: magic12345
+  defaultChain: btc
+  defaultNetwork: testnet
+
+social:
+  twitter: proofxstence
+  telegram: EEP3LAyL8WvklWGsQ29F4g
+  github: proofofexistence
+
+services:
+  insight:
+    btc:
+      mainnet:
+        url: https://insight.bitpay.com
+        api: /api
+      testnet:
+        url: https://test-insight.bitpay.com
+        api: /api
+    bch:
+      mainnet:
+        url:
+        api: /api
+      testnet:
+        url:
+        api: /api
+
+mail:
+  from: proofx@localhost
+  to: proofx@localhost
+
+nodemailer:
+  options:
