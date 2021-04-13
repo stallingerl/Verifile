@@ -1,9 +1,9 @@
 app:
   port: 3003
   site:
-    brand: Proof of Existence
+    brand: Verifile
     logo: "/theme/logo.svg"
-    title: Proof of Existence
+    title: Verifile - Proof File Existance
     slogan: Written forever.
     tagline: Instant & Secure Proof of Existence for Any Document.
     email: love@proofofexistence.com
