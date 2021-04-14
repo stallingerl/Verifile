@@ -1,15 +1,27 @@
-# Proof of Existence
+## Installation
+Just download the code from Github and install the dependencies.
 
-An online service to prove the existence of documents
+git clone git@github.com:stallingerl/Verifile.git
+cd Verifile
+npm install
 
-[![Build Status](https://travis-ci.org/proofofexistence/proofofexistence.svg?branch=master)](https://travis-ci.org/proofofexistence/proofofexistence)  ![Docker Pulls](https://img.shields.io/docker/pulls/proofofexistence/proofofexistence.svg)
+Now let's build the CSS assets before starting the app.
 
+npm run build
 
-You can use Docker to setup your own instance
+## Configuration
+You need to create a config file to store your own server, BTC wallet and email information.
 
-```sh
-docker pull proofofexistence/proofofexistence
-```
+cp config/test.yaml config/local-development.yaml
+
+Report to the config page to learn more about config variables.
+
+## Running
+
+npm start
+
+The app will be listening at http://localhost:3004/.
+
 
 Read [the docs](https://docs.proofofexistence.com) for more.
 

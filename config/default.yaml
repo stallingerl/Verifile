@@ -29,9 +29,10 @@ app:
   defaultNetwork: testnet
 
 social:
-  twitter: proofxstence
+  twitter: webanizer
   telegram: EEP3LAyL8WvklWGsQ29F4g
   github: stallingerl/Verifile
+  facebook: WeBanizerAg
 
 services:
   insight:
