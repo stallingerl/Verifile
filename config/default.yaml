@@ -1,9 +1,9 @@
 app:
   port: 3003
   site:
-    brand: VeriFile
+    brand: VeriFile - Proof of Existance
     logo: "/theme/logo.png"
-    title: VeriFile - Proof File Existance
+    title: VeriFile 
     slogan: Written forever.
     tagline: Instant & Secure Proof of Existence for Any Document.
     email: office@webanizer.de
