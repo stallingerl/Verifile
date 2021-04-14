@@ -36,17 +36,6 @@ const Footer = ({
             </li>
             : null
           }
-          { telegram
-            ? <li className='social'>
-              <a className='telegram'
-                href={`https://t.me/joinchat/${telegram}`}
-                title='Telegram'
-                >
-                Telegram
-              </a>
-            </li>
-            : null
-          }
           { facebook
             ? <li className='social'>
               <a className='facebook'
