@@ -2,7 +2,7 @@ app:
   port: 3003
   site:
     brand: VeriFile
-    logo: "/theme/logo.svg"
+    logo: "/theme/logo.png"
     title: VeriFile - Proof File Existance
     slogan: Written forever.
     tagline: Instant & Secure Proof of Existence for Any Document.

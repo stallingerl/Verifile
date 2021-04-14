@@ -1,16 +1,17 @@
 #branding {
   padding: 3em;
   text-align: center;
+
 }
 
 #navbar {
   position: sticky;
   top: 0px;
-  z-index:100;
+  z-index: index 100;
 }
 
 #navbar img {
-  max-width: 30px;
+  max-width: 20px;
   margin: 5px;
 }
 
