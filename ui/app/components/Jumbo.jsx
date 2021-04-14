@@ -8,8 +8,8 @@ const Jumbo = ({
 }) => (
   <div class='row'>
     <div class='col-lg-12'>
-      <div id='branding' class=''>
-        <img src={logo} alt='Main Logo' />
+      <div id='branding' class=''>    
+        <img src={logo} alt='Main Logo'/>
         <h1>
           {brand}
           <br />

@@ -78,7 +78,7 @@ const Footer = ({
           {
             version
               ? <li>
-                <a href={`https://github.com/proofofexistence/proofofexistence/releases/tag/${version}`}>
+                <a href={`https://github.com/stallingerl/Verifile/releases/tag/${version}`}>
                   v{version}
                 </a>
               </li>
@@ -86,7 +86,7 @@ const Footer = ({
           }
         </ul>
       </nav>
-      <div className='copyright pull-right'> Written forever by <a href='http://proofofexistence.com'>Proof of Existence</a>
+      <div className='copyright pull-right'> Written forever by <a href='http://proofofexistence.com'>WEBanizer AG</a>
         {
           year
             ? `- &copy; ${year}`

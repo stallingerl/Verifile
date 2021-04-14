@@ -18,5 +18,5 @@ Read [the docs](https://docs.proofofexistence.com) for more.
 
 ## License
 
-© Copyright 2017-2018 Proof Of Existence, all rights reserved.<br />
-© Copyright 2015-2017 Smart Contract Solutions Inc., all rights reserved.
+© Copyright 2021 WEBanizer AG, all rights reserved.<br />
+
