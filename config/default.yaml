@@ -1,7 +1,7 @@
 app:
   port: 3003
   site:
-    brand: VeriFile - Proof of Existance
+    brand: VeriFile - Proof of Existence
     logo: "/theme/logo.png"
     title: VeriFile 
     slogan: Written forever.
