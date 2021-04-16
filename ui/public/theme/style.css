@@ -9,6 +9,18 @@ h1, h3, h4, div, p, a, td, span, body {
   font-family: 'Barlow', sans-serif;
 }
 
+body {
+  margin: 0px;
+  padding:0px;
+  min-height: 100vh;
+  background: linear-gradient(to right, rgba(222, 167, 233, 0) 20%,
+  #d5d4fe); 
+  background-repeat: no-repeat;
+  background-position-x: right;
+  
+  background-position-y: center;
+}
+
 #navbar {
   position: sticky;
   top: 0px;
@@ -28,6 +40,14 @@ h1, h3, h4, div, p, a, td, span, body {
   margin: 5px;
 }
 
+.actions {
+  font-weight: 600;
+  font:bolder;
+}
+
+.githubBtn {
+  background-color: #14d7ce;
+}
 
 .badge-chain {
   text-transform: uppercase;
