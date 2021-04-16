@@ -1,13 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;600&display=swap");
+
 #branding {
   padding: 3em;
   text-align: center;
 
+}
+h1, h3, h4, div, p, a, td, span, body {
+  font-family: 'Barlow', sans-serif;
 }
 
 #navbar {
   position: sticky;
   top: 0px;
   z-index: index 100;
+  background-color: #0b3e74;
+  font: bolder;
+  color: aliceblue;
+}
+
+#navbar-brand {
+  font: bolder;
+  color: aliceblue;
 }
 
 #navbar img {
