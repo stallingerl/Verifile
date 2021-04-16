@@ -15,18 +15,19 @@ h1, h3, h4, div, p, a, td, span, body {
   z-index: index 100;
   background-color: #0b3e74;
   font: bolder;
-  color: aliceblue;
 }
 
-#navbar-brand {
+#navbar a {
+  color: white;
   font: bolder;
-  color: aliceblue;
+  font-family: 'Barlow', sans-serif;
 }
 
 #navbar img {
   max-width: 20px;
   margin: 5px;
 }
+
 
 .badge-chain {
   text-transform: uppercase;
