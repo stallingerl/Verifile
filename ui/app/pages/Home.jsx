@@ -119,7 +119,7 @@ class Home extends Component {
             Select a document and have it certified in the Doichain blockchain<br />
             Only {docproofPrice.amount} {docproofPrice.code}
           </h3>
-          <div className='card col-lg-8 no-border' style={{margin: 0}}>
+          <div className='card col-lg-8 no-border' style={{margin: 0, backgroundColor: 'transparent'}}>
 
             <div className='no-border'>
               {

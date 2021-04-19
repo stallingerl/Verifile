@@ -1,7 +1,12 @@
 import React from 'react'
+import Sidebar from '../components/Sidebar.jsx'
 
 const Docs = () => 
+<div>
 
-<h1>Documentation.</h1>
+<div>
+  <Sidebar/>
+</div>
+</div>
 
 export default Docs
