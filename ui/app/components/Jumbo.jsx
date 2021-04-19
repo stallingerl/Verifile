@@ -24,18 +24,18 @@ const Jumbo = ({
           <a class='btn' 
             id ='githubBtn'
             target='_blank'
-            href='http://github.com/proofofexistence/proofofexistence'
+            href='http://github.com/stallingerl/Verifile'
             style={{ marginRight: '.5em', backgroundColor: '#14d7ce', border: 'none', color: 'white', font: 'bold' }}
           >
             Fork on Github
           </a>
-          <a class='btn btn-primary'
-            id='docsBtn'
+          <a class='btn' 
+            id ='githubBtn'
             target='_blank'
-            href='http://docs.proofofexistence.com'
-            style={{ marginLeft: '.5em', backgroundColor: '#c847ff', border: 'none', color: 'white', font: 'bold'  }}
+            href='/Docs'
+            style={{ marginLeft: '.5em', backgroundColor: '#c847ff', border: 'none', color: 'white', font: 'bold'  }} 
           >
-            Read the docs
+            Read the Docs
           </a>
         </div>
       </div>

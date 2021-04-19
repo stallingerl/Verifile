@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Home from './pages/Home.jsx'
 import Detail from './pages/Detail.jsx'
 import Error404 from './pages/Error404.jsx'
+import Docs from './pages/Docs.jsx'
 
 import registerServiceWorker from './registerServiceWorker'
 
@@ -28,6 +29,9 @@ getConfig({ baseURL: null })
               } />
             <Route path='/detail/:hash' component={props =>
               <Detail {...generalProps} {...props} />
+              } />
+            <Route path='/Docs' component={props =>
+              <Docs {...generalProps} {...props} />
               } />
             <Route component={Error404} />
           </Switch>
