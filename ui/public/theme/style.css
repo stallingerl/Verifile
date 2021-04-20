@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+#Sidebar {
+  padding: 5em;
+}
+
 #branding h1 {
   font-weight: 800;
 }
