@@ -45,6 +45,7 @@ const Docs = (({
             <p style={{ marginTop: '30px', textAlign: 'left' }}>
               The key advantages are anonymity, privacy, and getting a decentralized proof which can't be erased or modified by anyone (third parties or governments).<strong> Your document's existence is permanently validated by the blockchain even if this site is compromised or down</strong>, so you don't depend or need to trust any central authority. All previous data timestamping solutions lack this freedom.
             </p>
+            <h3 id='Common uses'style={{marginTop: '30px', textAlign: 'left' }}>Common uses</h3>
           </div>
         </div>
       </div>
