@@ -19,23 +19,41 @@ const Sidebar = () => {
         <a
           href="/"
           className="text-decoration-none"
-          style={{ color: 'inherit' }}
+          style={{ color: 'inherit', textAlign: 'left' }}
         >
           Proof of Existence
         </a>
       </CDBSidebarHeader>
 
+      <CDBSidebarContent className="sidebar-content">
+          <CDBSidebarMenu>
+            <NavLink exact to="/" activeClassName="activeClicked">
+              <CDBSidebarMenuItem><a href="#What ispoe"></a>What is Proof of Existence</CDBSidebarMenuItem>
+            </NavLink>
+            <NavLink exact to="/tables" activeClassName="activeClicked">
+              <CDBSidebarMenuItem>Common Uses</CDBSidebarMenuItem>
+            </NavLink>
+            <NavLink exact to="/profile" activeClassName="activeClicked">
+              <CDBSidebarMenuItem>Technical Foundations</CDBSidebarMenuItem>
+            </NavLink>
+            <NavLink exact to="/analytics" activeClassName="activeClicked">
+              <CDBSidebarMenuItem>
+                Try it now
+              </CDBSidebarMenuItem>
+            </NavLink>
+            <NavLink exact to="/analytics" activeClassName="activeClicked">
+              <CDBSidebarMenuItem>
+                Get Started
+              </CDBSidebarMenuItem>
+            </NavLink>
+            <NavLink exact to="/analytics" activeClassName="activeClicked">
+              <CDBSidebarMenuItem>
+                Tutorial:Your First Proof
+              </CDBSidebarMenuItem>
+            </NavLink>
 
-      <CDBSidebarFooter style={{ textAlign: 'center' }}>
-        <div
-          className="sidebar-btn-wrapper"
-          style={{
-            padding: '20px 5px',
-          }}
-        >
-          Sidebar Footer
-        </div>
-      </CDBSidebarFooter>
+          </CDBSidebarMenu>
+        </CDBSidebarContent>
     </CDBSidebar>
   </div>
   );
