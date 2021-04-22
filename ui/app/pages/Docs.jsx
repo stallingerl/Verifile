@@ -2,11 +2,10 @@ import React from 'react'
 import Sidebar from '../components/Sidebar.jsx'
 
 
+
 const Docs = (({
   logo,
   brand,
-  slogan,
-  tagline
 }) =>
   <div>
     <div class='row'>
@@ -34,7 +33,7 @@ const Docs = (({
             <br />
             <img src='/img/proofofexistence.png' style={{ maxWidth: '800px' }} alt='Screenshot from Proof of Existence online service'>
             </img>
-            <h3 id='What is poe'style={{marginTop: '30px', textAlign: 'left' }}>What is Proof of Existence?</h3>
+            <h3 id='WhatIsPoe' style={{marginTop: '30px', textAlign: 'left' }}>What is Proof of Existence?</h3>
             <p style={{ marginTop: '30px', textAlign: 'left' }}>
               A service to anonymously and securely store an online distributed proof of existence for any document. <strong>Your documents are NOT stored in our database or in the doichain blockchain</strong>, so you don't have to worry about your data being accessed by others.
             </p>

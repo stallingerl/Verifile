@@ -1,5 +1,5 @@
 var digest = '8d1321a1d31f5603be10bab6a11b58009c03658e1a29248656db7a7e4f86d814'
-var address = 'ms6zWKUFA1txnncwcFvxc99899wjXrbGRH'
+var address = 'ms6zWKUFA1txnncwcFvxc99899wjXrbGRH' //TO DO Doichain Address
 var timestamp = '2018-01-18T06:28:24.134Z'
 
 module.exports = {

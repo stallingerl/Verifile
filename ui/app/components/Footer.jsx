@@ -60,7 +60,7 @@ const Footer = ({
             </a>
           </li>
           <li>
-            <a href='https://docs.proofofexistence.com'>
+            <a href='/Docs'>
               Read the docs
             </a>
           </li>

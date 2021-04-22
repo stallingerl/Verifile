@@ -7,7 +7,11 @@ import {
   CDBSidebarMenu,
   CDBSidebarMenuItem,
 } from 'cdbreact';
-import { NavLink } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  NavLink
+
+} from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -16,19 +20,19 @@ const Sidebar = () => {
   >
     <CDBSidebar textColor="#fff" backgroundColor="transparent">
       <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
-        <a
-          href="/"
-          className="text-decoration-none"
-          style={{ color: 'inherit', textAlign: 'left' }}
-        >
+          <a
+            href="/"
+            className="text-decoration-none"
+            style={{ color: 'inherit', textAlign: 'left' }}
+          >
           Proof of Existence
         </a>
       </CDBSidebarHeader>
 
       <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
-            <NavLink exact to="/" activeClassName="activeClicked">
-              <CDBSidebarMenuItem><a href="#What ispoe"></a>What is Proof of Existence</CDBSidebarMenuItem>
+            <NavLink exact to="/Docs" activeClassName="activeClicked">
+              <CDBSidebarMenuItem>What is Proof of Existence</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="/tables" activeClassName="activeClicked">
               <CDBSidebarMenuItem>Common Uses</CDBSidebarMenuItem>
@@ -41,7 +45,7 @@ const Sidebar = () => {
                 Try it now
               </CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/analytics" activeClassName="activeClicked">
+            <NavLink exact to="/GetStarted" >
               <CDBSidebarMenuItem>
                 Get Started
               </CDBSidebarMenuItem>

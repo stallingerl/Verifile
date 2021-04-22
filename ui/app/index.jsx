@@ -7,10 +7,12 @@ import Home from './pages/Home.jsx'
 import Detail from './pages/Detail.jsx'
 import Error404 from './pages/Error404.jsx'
 import Docs from './pages/Docs.jsx'
+import GetStarted from './pages/GetStarted.jsx'
 
 import registerServiceWorker from './registerServiceWorker'
 
 import { getConfig } from '@proofofexistence/api-client'
+
 
 // get config as starter
 getConfig({ baseURL: null })
@@ -26,13 +28,16 @@ getConfig({ baseURL: null })
           <Switch>
             <Route exact path='/' component={props =>
               <Home {...generalProps} {...props} />
-              } />
+            } />
             <Route path='/detail/:hash' component={props =>
               <Detail {...generalProps} {...props} />
-              } />
+            } />
             <Route path='/Docs' component={props =>
               <Docs {...generalProps} {...props} />
-              } />
+            } />
+            <Route path='/GetStarted' component={props =>
+              <GetStarted {...generalProps} {...props} />
+            } />
             <Route component={Error404} />
           </Switch>
         </App>
