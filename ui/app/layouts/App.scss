@@ -1,0 +1,22 @@
+.social .github {
+    background: url('/img/social/github.svg') no-repeat;
+  }
+  
+  .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+  
+  .table.docproofs-table td {
+    vertical-align: top;
+  }
+  
+  .table.docproofs-table .no-wrap,
+  .table.docproofs-table th {
+    white-space: nowrap
+  }  
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    #dropbox h4 {
+      margin-top:0;
+    }
+  }

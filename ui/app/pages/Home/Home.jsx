@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 
-import Jumbo from '../components/Jumbo.jsx'
-import Search from '../components/Search.jsx'
-import HashList from '../components/HashList.jsx'
+import Jumbo from '../../components/Jumbo.jsx'
+import Search from '../../components/Search.jsx'
+import HashList from '../../components/HashList.jsx'
 
-import UploadFile from '../components/UploadFile.jsx'
-import Status from '../components/Status.jsx'
+import UploadFile from '../../components/UploadFile.jsx'
+import Status from '../../components/Status.jsx'
 
-import crypto from '../crypto'
+import crypto from '../../crypto'
+import "./Home.scss"
 
 import { getLatestConfirmed, getLatestUnconfirmed } from '@proofofexistence/api-client'
 
