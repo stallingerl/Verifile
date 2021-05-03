@@ -8,7 +8,7 @@ import Detail from './pages/Detail.jsx'
 import Error404 from './pages/Error404.jsx'
 import Docs from './pages/Docs/Docs.jsx'
 import GetStarted from './pages/GetStarted.jsx'
-import WhatIsPoe from './components/WhatIsPoe.jsx'
+import WhatIsPoe from './pages/WhatIsPoe.jsx'
 
 import registerServiceWorker from './registerServiceWorker'
 
