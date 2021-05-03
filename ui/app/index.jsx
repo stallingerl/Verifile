@@ -8,10 +8,12 @@ import Detail from './pages/Detail.jsx'
 import Error404 from './pages/Error404.jsx'
 import Docs from './pages/Docs/Docs.jsx'
 import GetStarted from './pages/GetStarted.jsx'
+import WhatIsPoe from './components/WhatIsPoe.jsx'
 
 import registerServiceWorker from './registerServiceWorker'
 
 import { getConfig } from '@proofofexistence/api-client'
+
 
 
 // get config as starter
@@ -37,6 +39,9 @@ getConfig({ baseURL: null })
             } />
             <Route path='/GetStarted' component={props =>
               <GetStarted {...generalProps} {...props} />
+            } />
+            <Route path='/WhatIsPoe' component={props =>
+              <WhatIsPoe {...generalProps} {...props} />
             } />
             <Route component={Error404} />
           </Switch>
