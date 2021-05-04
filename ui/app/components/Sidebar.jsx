@@ -15,50 +15,44 @@ import {
 const Sidebar = () => {
   return (
     <div
-    style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}
-  >
-    <CDBSidebar textColor="#fff" backgroundColor="transparent">
-      <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
+      style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}
+    >
+      <CDBSidebar textColor="#fff" backgroundColor="transparent">
+        <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a
             href="/"
             className="text-decoration-none"
             style={{ color: 'inherit', textAlign: 'left' }}
           >
-          Proof of Existence
+            Proof of Existence
         </a>
-      </CDBSidebarHeader>
-
-      <CDBSidebarContent className="sidebar-content">
+        </CDBSidebarHeader>
+        <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
             <NavLink exact to="/WhatIsPoe" >
               <CDBSidebarMenuItem>What is Proof of Existence</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/tables" activeClassName="activeClicked">
-              <CDBSidebarMenuItem>Common Uses</CDBSidebarMenuItem>
-            </NavLink>
-            <NavLink exact to="/profile" activeClassName="activeClicked">
+            <NavLink exact to="/TechnicalFoundations" >
               <CDBSidebarMenuItem>Technical Foundations</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/analytics" activeClassName="activeClicked">
-              <CDBSidebarMenuItem>
-                Try it now
-              </CDBSidebarMenuItem>
+            <NavLink exact to="/CommonUses" >
+              <CDBSidebarMenuItem>Common Uses</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="/GetStarted" >
-              <CDBSidebarMenuItem>
-                Get Started
-              </CDBSidebarMenuItem>
+              <CDBSidebarMenuItem>Get Started</CDBSidebarMenuItem>
+            </NavLink>
+            <NavLink exact to="/TryItNow" >
+              <CDBSidebarMenuItem>TryItNow</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="/analytics" activeClassName="activeClicked">
               <CDBSidebarMenuItem>
                 Tutorial:Your First Proof
               </CDBSidebarMenuItem>
             </NavLink>
-
           </CDBSidebarMenu>
         </CDBSidebarContent>
-    </CDBSidebar>
-  </div>
+      </CDBSidebar>
+    </div>
   );
 };
 
